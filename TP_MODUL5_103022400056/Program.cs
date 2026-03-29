@@ -6,6 +6,9 @@ class Program
     static void Main(string[] args)
     {
         HaloGeneric halo = new HaloGeneric();
-        halo.SapaUser("Muhammad Daffa Arifin (103022400056)"); 
+        halo.SapaUser("Muhammad Daffa Arifin");
+
+        DataGeneric<string> data = new DataGeneric<string>("103022400056");
+        data.PrintData();
     }
 }
